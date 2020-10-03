@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: "Roboto Slab", serif;
+  background-image: url("https://www.excelhighschool.com/wp-content/uploads/2016/08/excel_about.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+}
+h1,
+h3,
+h2,
+h5 {
+  font-family: "Sansita Swashed", cursive;
+}
+/* mobile css */
+@media only screen and (max-width: 600px) {
+  body {
+    background-attachment: scroll;
+    background-size: contain;
+    background-image: linear-gradient(45deg, skyblue 30%, lightgreen 40%);
+  }
+  .head {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 10px;
+    font-size: 2rem;
+    color: #150485;
+    background-image: linear-gradient(45deg, skyblue 30%, lightgreen 40%);
+  }
+
+  .about {
+    background-color: #08aeea;
+    background-image: linear-gradient(0deg, #08aeea 0%, #2af598 100%);
+
+    /* padding: 10px;
+    margin-top: 10px; */
+    display: block;
+  }
+}
+
+/* css for nav bar */
+.navbar-brand img {
+  width: 60px;
+  height: 60px;
+}
+.navbar {
+  background-color: darkslateblue;
+  margin-bottom: 2px;
+}
+
+/* css for heading  */
+.head {
+  font-family: "Sansita Swashed", cursive;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 100px;
+  margin-top: 50px;
+  font-size: 3rem;
+  color: #810000;
+}
+
+/* about us css */
+.about {
+  background-color: #08aeea;
+  background-image: linear-gradient(0deg, #08aeea 0%, #2af598 100%);
+
+  padding: 50px;
+  margin-top: 100px;
+  display: block;
+}
+
+.res {
+  border: solid lightgreen;
+  box-shadow: #4caf50;
+}
+.res:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+/* counter */
+.counters {
+  background-color: #fbda61;
+  background-image: linear-gradient(45deg, #fbda61 0%, #ff5acd 100%);
+  padding: 30px;
+}
+.counts .counters span {
+  font-size: 48px;
+  display: block;
+  color: darkviolet;
+  font-weight: 700;
+}
+
+/* <--carousel --> */
+.caro {
+  background-color: #ffe53b;
+  background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+}
+.caro h1 {
+  text-align: center;
+}
+
+.carousel {
+  background-color: #ffe53b;
+  background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+}
+
+.carousel-item img {
+  padding: 20px;
+  left: 0;
+}
+/* 
+contact us css */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+#contactU input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+#contactU input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#contactU input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin: 20px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  #contactU img {
+    height: 100px;
+    width: 300px;
+  }
+}
+
+#contactU img {
+  height: 600px;
+  width: 600px;
+}
+
+/* ===Footer Section starts=== */
+footer {
+  margin: 0;
+}
+footer .container-fluid {
+  background-color: darkslateblue;
+}
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: none;
+  color: black;
+}
+footer h3 {
+  color: black;
+}
+
+footer .input-group-append span {
+  background-color: #0278ae;
+  color: #ffffff;
+  border-radius: 0 10px 10px 0;
+}
+
+footer .news-input {
+  border-radius: 10px 0 0 10px;
+}
+
+/* ===Footer Section ends=== */
